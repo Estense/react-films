@@ -3,7 +3,7 @@ import { Album } from "../components/Album";
 import { Preloader } from "../components/Preloader";
 import { Search } from "../components/Search";
 
-API_KEY = process.env.REACT_APP_API_KEY;
+const API_KEY = process.env.REACT_APP_API_KEY;
 
 class Main extends React.Component {
   state = {
